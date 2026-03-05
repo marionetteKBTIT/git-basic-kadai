@@ -12,6 +12,15 @@ PS E:\サムライエンジニア用\課題提出用\git_challenge> git commit -
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
 PS E:\サムライエンジニア用\課題提出用\git_challenge> 
+PS E:\サムライエンジニア用\課題提出用\git_challenge> 
+PS E:\サムライエンジニア用\課題提出用\git_challenge> git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 PS E:\サムライエンジニア用\課題提出用\git_challenge>
 PS E:\サムライエンジニア用\課題提出用\git_challenge> git add hello_world.txt       
 PS E:\サムライエンジニア用\課題提出用\git_challenge> 
@@ -20,4 +29,16 @@ PS E:\サムライエンジニア用\課題提出用\git_challenge> git commit -
                                                                                   [main e79d150] 日本語訳を追記
  1 file changed, 2 insertions(+), 1 deletion(-)
 PS E:\サムライエンジニア用\課題提出用\git_challenge>
-PS E:\サムライエンジニア用\課題提出用\git_challenge>
+PS E:\サムライエンジニア用\課題提出用\git_challenge> git log
+commit e79d15090762298d70e8621bdca655bf14c3b1b9 (HEAD -> main)
+Author: marionetteKVTIT <toshi143yosiiakihisa@yahoo.co.jp>
+Date:   Thu Mar 5 13:29:14 2026 +0900
+
+    日本語訳を追記
+
+commit cccf09e98b79b6f09e1e363be5b68d51035f765e
+Author: marionetteKVTIT <toshi143yosiiakihisa@yahoo.co.jp>
+Date:   Thu Mar 5 13:26:27 2026 +0900
+
+    1回目のコミット
+PS E:\サムライエンジニア用\課題提出用\git_challenge> 
